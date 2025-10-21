@@ -1,51 +1,62 @@
-#  Hi, I'm Yashvi Vekariya  
-### AI & Data Systems Engineer | Data Analyst | LLM Agent Developer  
+# Hi, I'm **Yashvi Vekariya**
+### 🚀 AI & Data Systems Engineer | LLM Agent Developer | Data Analyst  
+📍 India | 🌐 [yashviivekariya.site](https://www.yashviivekariya.site) | ✉️ yashviivekariya@gmail.com  
 
-I build **deployable AI systems** that transform data into autonomous insights.  
-My focus combines **Product Analytics + LLM Engineering** — building **RAG pipelines**, **AI agents**, and **MLOps deployments** that scale reliably.
+---
+
+## 🧠 About Me  
+I build **deployable AI systems** that transform raw data into **autonomous, data-driven insights**.  
+My focus blends **Data Analytics, Machine Learning, and LLM Engineering** to create **RAG pipelines, multi-agent systems, and analytics automation** that scale in real-world environments.
+
+> *“Turning Data Pipelines into Thinking Systems.”*
 
 ---
  ![code](devcode.gif)
  
-### 🚀 What I Build
-- **LLM Fine-Tuning** (LoRA / QLoRA) for domain-specific agents  
-- **Retrieval-Augmented Generation (RAG)** with LangChain + Pinecone  
-- **AI Agent Orchestration** using LangGraph / CrewAI  
-- **MLOps Deployment** – Docker · Kubernetes · FastAPI · CI/CD  
-- **Product Analytics Dashboards** – Power BI · Streamlit  
+## ⚙️ Core Expertise
+- **LLM Fine-Tuning:** LoRA / QLoRA for domain-specific agents  
+- **Retrieval-Augmented Generation (RAG):** Context-aware pipelines with LangChain / Pinecone  
+- **AI Agent Orchestration:** Multi-agent frameworks with LangGraph & CrewAI  
+- **MLOps & Deployment:** FastAPI · Docker · Kubernetes · CI/CD · Observability  
+- **Product & Data Analytics:** Power BI · Streamlit · SQL · A/B Testing  
+- **Multi-Modal AI:** Integrating text + vision for cross-domain reasoning  
 
 ---
 
-### 🧩 Featured Projects
-| Project | Description | Tech |
+## 🧩 Featured Projects
+
+| Project | Description | Tech Stack |
 |:--|:--|:--|
-| [**Job Application AI Agent**](https://github.com/Yashvi-Vekariya/Job-Application-Agent) | Automates CV tailoring & cover letters via NLP + ATS keyword scoring. | Python · LangChain · Pinecone |
-| [**Fraud Detection GNN System**](https://github.com/Yashvi-Vekariya/Fraud-Detection-System) | Detects coordinated fraud rings in real time using GNN + Neo4j. | Graph ML · Kafka · Neo4j |
-| [**RAG Feedback Analyzer**](https://github.com/Yashvi-Vekariya/RAG-Feedback-Agent) | Summarizes customer feedback → feature ideas within seconds. | LangChain · LoRA · Pinecone |
-| [**Product Analytics Dashboard**](https://github.com/Yashvi-Vekariya/Product-Analytics-Dashboard) | Live dashboard for KPI tracking & LLM query interface. | Power BI · Streamlit · SQL |
-
-🔗 **Live Portfolio:** [yashviivekariya.site](https://www.yashviivekariya.site)
+| [**AgentForge-OS**](https://github.com/Yashvi-Vekariya/AgentForge-OS) | Autonomous AI Agent Operating System combining fine-tuned LLMs, vector memory, and CrewAI orchestration for research and analytics. | Python · LangGraph · CrewAI · Pinecone |
+| [**Job-Apply-AI-Agent**](https://github.com/Yashvi-Vekariya/Job-apply-AI-agent) | Intelligent job-search automation: JD parsing, match scoring, and CV/cover-letter generation with ATS optimization. | Python · NLP · LangChain |
+| [**Intelligent-Fraud-Buster**](https://github.com/Yashvi-Vekariya/Intelligent-Fraud-Buster) | Detects coordinated fraud rings using Graph Neural Networks and real-time streaming. | Graph ML · Neo4j · Kafka |
 
 ---
 
-### 🛠️ Tech Stack
-**Languages:** Python | SQL | R  
-**AI Frameworks:** PyTorch | TensorFlow | Scikit-learn  
-**LLM Tools:** LangChain | LangGraph | CrewAI | Pinecone | Chroma  
-**DevOps:** Docker | Kubernetes | FastAPI | GraphQL | AWS  
-**Analytics:** Power BI | Tableau | Streamlit  
+## 🧰 Tech Stack
+
+**Languages:** Python · SQL · R · JavaScript  
+**AI / ML Frameworks:** PyTorch · TensorFlow · Scikit-learn  
+**LLM Tools:** LangChain · LangGraph · CrewAI · Pinecone · Chroma  
+**MLOps & Infra:** Docker · Kubernetes · FastAPI · GraphQL · AWS  
+**Data & Visualization:** Power BI · Tableau · Streamlit · Pandas · NumPy  
 
 ---
 
-### 📈 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yashvi-Vekariya&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashvi-Vekariya&layout=compact&theme=radical)
+## 📊 GitHub Analytics
+
+![Yashvi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yashvi-Vekariya&show_icons=true&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashvi-Vekariya&layout=compact&theme=tokyonight)
 
 ---
 
-### 📬 Connect
-[LinkedIn](https://www.linkedin.com/in/yashvi-vekariya)  |  [Portfolio](https://www.yashviivekariya.site)  |  [yashviivekariya@gmail.com](mailto:yashviivekariya@gmail.com)
+## 🌐 Connect
+[🔗 Portfolio](https://www.yashviivekariya.site) &nbsp;|&nbsp; [💼 LinkedIn](https://www.linkedin.com/in/yashvi-vekariya) &nbsp;|&nbsp; [📧 Email](mailto:yashviivekariya@gmail.com)
 
 ---
 
-> 💡 *“Turning Data Pipelines into Thinking Systems.”*
+### ⚡ Current Focus  
+Building **AgentForge-OS** — an open multi-agent operating system integrating fine-tuned LLMs, vector memory, and CrewAI orchestration.  
+Exploring **meta-learning**, **persistent context**, and **self-evolving AI architectures.**
+
+---
