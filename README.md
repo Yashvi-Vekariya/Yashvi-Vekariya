@@ -43,13 +43,6 @@ My focus blends **Data Analytics, Machine Learning, and LLM Engineering** to cre
 
 ---
 
-## 📊 GitHub Analytics
-
-![Yashvi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yashvi-Vekariya&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashvi-Vekariya&layout=compact&theme=tokyonight)
-
----
-
 ## 🌐 Connect
 [🔗 Portfolio](https://www.yashviivekariya.site) &nbsp;|&nbsp; [💼 LinkedIn](https://www.linkedin.com/in/yashvi-vekariya) &nbsp;|&nbsp; [📧 Email](mailto:yashviivekariya@gmail.com)
 
