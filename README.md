@@ -1,173 +1,145 @@
 <div align="center">
 
-# YASHVI VEKARIYA
-### Building systems that think, retrieve, and act — not just respond.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0F0F,100:1E1E2E&height=200&section=header&text=YASHVI%20VEKARIYA&fontSize=48&fontColor=00F5D4&fontAlignY=38&desc=Systems%20that%20Route,%20Retrieve%20%26%20Reason&descAlignY=58&descSize=18&descColor=A9A9C8&animation=fadeIn" width="100%"/>
 
-`AI Systems Engineer` · `Multi-Agent Architectures` · `RAG & LLM Fine-Tuning`
+<br>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-yashviivekariya.site-0A0A0A?style=flat-square&logo=vercel&logoColor=white)](https://www.yashviivekariya.site)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A0A0A?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashvi-vekariya)
-[![Email](https://img.shields.io/badge/Email-Contact-0A0A0A?style=flat-square&logo=gmail&logoColor=white)](mailto:vyashvi304@gmail.com)
+<a href="https://www.yashviivekariya.site">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=00F5D4&center=true&vCenter=true&width=650&lines=Multi-Agent+Orchestration+Engineer;RAG+Pipelines+%2B+LoRA%2FQLoRA+Fine-Tuning;20%2B+Autonomous+Agents+Shipped+to+Production;Currently+targeting+AI+roles+in+Germany+%2F+EU" alt="Typing SVG" />
+</a>
+
+<br><br>
+
+<a href="https://www.yashviivekariya.site"><img src="https://img.shields.io/badge/PORTFOLIO-00F5D4?style=for-the-badge&logoColor=black&color=00F5D4&labelColor=0F0F0F" /></a>
+<a href="https://www.linkedin.com/in/yashvi-vekariya"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0F0F0F" /></a>
+<a href="mailto:vyashvi304@gmail.com"><img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F0F0F" /></a>
 
 </div>
 
 <br>
 
-```
-> whoami
+## ▍ System Overview
 
-Yashvi Vekariya — AI/ML Engineer
-Location    : India → targeting Germany / EU
-Focus       : Multi-agent orchestration, RAG pipelines, LLM fine-tuning
-Status      : 20+ autonomous agents shipped in production-shaped systems
+```yaml
+engineer: Yashvi Vekariya
+role: AI Systems Engineer
+philosophy: "An agent that can't be evaluated shouldn't ship."
+core_loop: route → retrieve → evaluate → act
+shipped: 20+ autonomous agents in production-shaped systems
+impact:
+  research_time: -65%
+  manual_ops: -80%
+  parallel_task_completion: 92%
+location: India → EU/Germany (relocating)
 ```
 
 <br>
 
-## What I actually build
+## ▍ Architecture I Build Against
 
-Most "AI Engineer" profiles show chatbots. Mine shows **systems with moving parts** —
-supervisor agents that route decisions, retrieval layers that get evaluated before they ship,
-and fine-tuned models running under real infra constraints, not just notebooks.
+Every project below follows the same discipline: nothing reaches a user without passing
+through a retrieval layer and an evaluation gate first.
 
-Every project below solves a real orchestration or retrieval problem, not a wrapped API call.
+```
+Intent → Supervisor Agent (router) → Specialized Agents (research / analytics / automation)
+                                              │
+                              ┌───────────────┴───────────────┐
+                        RAG Layer (FAISS/Chroma)      Eval Gate (RAGAS/LangSmith)
+                                              │
+                                          Action / Response
+```
 
 <br>
 
-## Systems in production
+## ▍ Flagship Systems
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### 🧠 AgentForge-OS
-**Autonomous multi-agent operating system**
-
-Supervisor-agent architecture routing decisions across **8+ specialized agents** for research, analytics, and task automation.
-
-- LoRA/QLoRA fine-tuning (`microsoft/phi-2`, adapted for Windows/CPU constraints)
-- FAISS + ChromaDB retrieval with semantic chunking
-- RAGAS + LangSmith evaluation gates before release
-- Dockerized, CI/CD deployed
-- n8n cross-platform automation (Notion, Sheets, Slack, Gmail)
-
-`Python` `LangGraph` `CrewAI` `MLflow` `Docker`
-
-[→ Repo](https://github.com/Yashvi-Vekariya/AgentForge-OS)
-
+<td width="50%">
+<h3>🧠 AgentForge-OS</h3>
+<b>Autonomous multi-agent operating system</b><br><br>
+Supervisor routing across <b>8+ specialized agents</b>. Fine-tuned on <code>microsoft/phi-2</code> via LoRA/QLoRA, adapted for Windows/CPU inference constraints — retrieval through FAISS + ChromaDB, gated by RAGAS/LangSmith before release.
+<br><br>
+<code>Python</code> <code>LangGraph</code> <code>CrewAI</code> <code>MLflow</code> <code>Docker</code>
+<br><br>
+<a href="https://github.com/Yashvi-Vekariya/AgentForge-OS">→ View System</a>
 </td>
-<td width="50%" valign="top">
-
-### 🖐️ GestureForge AR
-**Real-time browser-based hand-gesture AR engine**
-
-No install, no app — gesture recognition and 3D interaction running entirely in-browser.
-
-- MediaPipe hand-tracking → Three.js render pipeline
-- Real-time gesture-to-object spawning
-- FastAPI backend, GitHub Actions CI
-
-`JavaScript` `MediaPipe` `Three.js` `FastAPI`
-
-[→ Repo](https://github.com/Yashvi-Vekariya/hand-gesture)
-
+<td width="50%">
+<h3>🔍 Autonomous Research Agent</h3>
+<b>Multi-agent research platform, web-grounded</b><br><br>
+LangGraph orchestration + Tavily-grounded retrieval + GPT-4o reasoning, fully async. Cut manual research time by <b>65%</b> across parallel workflows.
+<br><br>
+<code>LangGraph</code> <code>LangChain</code> <code>FastAPI</code> <code>Docker</code>
+<br><br>
+<a href="https://github.com/Yashvi-Vekariya/Autonomous-Research-Agent-with-Web-Grounding">→ View System</a>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### 🔍 Autonomous Research Agent
-**Multi-agent research platform with live web grounding**
-
-Production-grade agent pipeline that researches, verifies, and reports — not just summarizes.
-
-- LangGraph orchestration + Tavily Search grounding
-- GPT-4o reasoning layer, async Python execution
-- Streamlit interface, Pydantic-validated outputs
-- **65% reduction** in manual research time
-
-`LangGraph` `LangChain` `FastAPI` `Docker`
-
-[→ Repo](https://github.com/Yashvi-Vekariya/Autonomous-Research-Agent-with-Web-Grounding)
-
+<td width="50%">
+<h3>🖐️ GestureForge AR</h3>
+<b>Real-time browser hand-gesture AR engine</b><br><br>
+MediaPipe hand-tracking piped directly into a Three.js render loop — zero install, gesture-to-3D-object interaction fully client-side.
+<br><br>
+<code>JavaScript</code> <code>MediaPipe</code> <code>Three.js</code> <code>FastAPI</code>
+<br><br>
+<a href="https://github.com/Yashvi-Vekariya/hand-gesture">→ View System</a>
 </td>
-<td width="50%" valign="top">
-
-### 📊 Mutual Fund Predictive Analytics
-**ML forecasting system with full experiment tracking**
-
-Not a Jupyter one-off — built with the rigor of a deployable model.
-
-- Random Forest across 3/5/10-year horizons
-- **97–98% accuracy** across validation runs
-- MLflow experiment tracking, versioned runs
-
-`Python` `Scikit-learn` `MLflow`
-
-[→ Repo](https://github.com/Yashvi-Vekariya/Mutual-Fund-Predictive-Analytics)
-
+<td width="50%">
+<h3>📊 Mutual Fund Predictive Analytics</h3>
+<b>Forecasting engine with full experiment lineage</b><br><br>
+Random Forest across 3/5/10-year horizons, <b>97–98% validation accuracy</b>, every run versioned through MLflow.
+<br><br>
+<code>Python</code> <code>Scikit-learn</code> <code>MLflow</code>
+<br><br>
+<a href="https://github.com/Yashvi-Vekariya/Mutual-Fund-Predictive-Analytics">→ View System</a>
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>More systems →</b> ARBITER (legal-access multi-agent system) · DeutschMentor AI (A1–C2 adaptive language platform) · Job-Apply AI Agent (JD parsing + ATS-optimized generation)</summary>
+<summary><b>▍ More systems</b></summary>
 <br>
 
-- **[ARBITER](https://github.com/Yashvi-Vekariya/ARBITER)** — Autonomous multi-agent system giving underserved users access to legal guidance.
-- **[DeutschMentor AI](https://github.com/Yashvi-Vekariya/DeutschMentor-AI)** — Production-shaped German learning platform, A1 through C2.
-- **[Job-Apply AI Agent](https://github.com/Yashvi-Vekariya/Job-apply-AI-agent)** — Automated JD parsing, match scoring, and ATS-optimized application generation.
+| System | What it does |
+|---|---|
+| **[ARBITER](https://github.com/Yashvi-Vekariya/ARBITER)** | Autonomous multi-agent system giving underserved users access to legal guidance |
+| **[DeutschMentor AI](https://github.com/Yashvi-Vekariya/DeutschMentor-AI)** | Production-shaped adaptive German learning platform, A1 through C2 |
+| **[Job-Apply AI Agent](https://github.com/Yashvi-Vekariya/Job-apply-AI-agent)** | JD parsing, match scoring, and ATS-optimized application generation |
 
 </details>
 
 <br>
 
-## How the pieces fit
+## ▍ Stack
 
-```
-   User Intent
-        │
-        ▼
- ┌──────────────┐        ┌───────────────────┐
- │ Supervisor    │──────▶│  Specialized Agents │
- │ Agent (router)│       │  (research/analytics│
- └──────┬───────┘        │   /automation)      │
-        │                └─────────┬───────────┘
-        ▼                          ▼
- ┌──────────────┐        ┌───────────────────┐
- │ RAG Layer     │◀──────│  Eval Gate         │
- │ FAISS/ChromaDB│        │  RAGAS + LangSmith │
- └──────────────┘        └───────────────────┘
-```
+<div align="center">
 
-This is the pattern behind most of what's above: **route → retrieve → evaluate → act**,
-not a single LLM call pretending to be a system.
+![Python](https://img.shields.io/badge/Python-0F0F0F?style=for-the-badge&logo=python&logoColor=00F5D4)
+![PyTorch](https://img.shields.io/badge/PyTorch-0F0F0F?style=for-the-badge&logo=pytorch&logoColor=00F5D4)
+![LangChain](https://img.shields.io/badge/LangChain-0F0F0F?style=for-the-badge&logo=langchain&logoColor=00F5D4)
+![Docker](https://img.shields.io/badge/Docker-0F0F0F?style=for-the-badge&logo=docker&logoColor=00F5D4)
+![FastAPI](https://img.shields.io/badge/FastAPI-0F0F0F?style=for-the-badge&logo=fastapi&logoColor=00F5D4)
+![MLflow](https://img.shields.io/badge/MLflow-0F0F0F?style=for-the-badge&logo=mlflow&logoColor=00F5D4)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-0F0F0F?style=for-the-badge&logo=tensorflow&logoColor=00F5D4)
+![JavaScript](https://img.shields.io/badge/JavaScript-0F0F0F?style=for-the-badge&logo=javascript&logoColor=00F5D4)
+
+</div>
 
 <br>
 
-## Stack
+## ▍ Activity
 
-| Layer | Tools |
-|---|---|
-| **Orchestration** | LangGraph · CrewAI · AutoGen |
-| **Retrieval** | LangChain · FAISS · ChromaDB |
-| **Fine-tuning** | LoRA / QLoRA · PyTorch · TensorFlow |
-| **Evaluation** | RAGAS · LangSmith |
-| **Serving & Ops** | FastAPI · Docker · MLflow · n8n |
-| **Languages** | Python · JavaScript/TypeScript |
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Yashvi-Vekariya&show_icons=true&theme=dark&hide_border=true&bg_color=0F0F0F&title_color=00F5D4&icon_color=00F5D4&text_color=A9A9C8" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Yashvi-Vekariya&theme=dark&hide_border=true&background=0F0F0F&ring=00F5D4&fire=00F5D4&currStreakLabel=00F5D4" height="165"/>
+</div>
 
-<br>
-
-## Numbers that mean something
-
-`20+` autonomous agents shipped &nbsp;·&nbsp; `65%` cut in research time &nbsp;·&nbsp; `80%` cut in manual ops &nbsp;·&nbsp; `92%` task-completion across parallel agent workflows
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashvi-Vekariya&layout=compact&theme=dark&hide_border=true&bg_color=0F0F0F&title_color=00F5D4&text_color=A9A9C8" height="165"/>
+</div>
 
 <br>
 
 <div align="center">
-
-**Currently:** fine-tuning AgentForge-OS's evaluation layer and looking for AI Engineering roles across Germany/EU.
-
-[Portfolio](https://www.yashviivekariya.site) · [LinkedIn](https://www.linkedin.com/in/yashvi-vekariya) · [Email](mailto:vyashvi304@gmail.com)
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1E2E,100:0F0F0F&height=100&section=footer"/>
 </div>
