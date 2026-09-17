@@ -1,4 +1,5 @@
 <img width="1200" height="420" alt="profile-header" src="https://github.com/user-attachments/assets/6820455a-df4f-40ff-a263-7918ad51c532" />
+
 <!--
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                    YASHVI // AI ENGINEER OS                         ║
@@ -43,8 +44,7 @@ DATA
   ↓
 MODELS
   ↓
-CONTEXT![Uploading profile-header.svg…]()
-
+CONTEXT
   ↓
 TOOLS
   ↓
