@@ -1,363 +1,881 @@
 <!--
-  YASHVI VEKARIYA — GitHub Profile README
-  Design principle:
-  Technical evidence > Architecture > Clarity > Story > Visual design
+╔══════════════════════════════════════════════════════════════════════╗
+║                    YASHVI // AI ENGINEER OS                         ║
+║ GitHub-native application-style profile README                     ║
+║ Priority: Evidence > Architecture > Clarity > Story > Visuals       ║
+╚══════════════════════════════════════════════════════════════════════╝
 
-  EDITING NOTES
-  - Keep major copy directly in this file.
-  - Prefer Mermaid for diagrams.
-  - Replace repository URLs if project slugs change.
-  - Never add metrics unless you have measured evidence.
+MAINTENANCE:
+- Keep this file GitHub-native: Markdown + supported HTML + Mermaid + SVG.
+- Do not add fake metrics, fake production claims, or unsupported architecture.
+- Replace repo search links with direct repository URLs when final slugs are fixed.
 -->
+
+<p align="center">
+  <img src="./assets/profile-header.svg" width="100%" alt="Yashvi Vekariya — AI Systems Engineer"/>
+</p>
+
+<p align="center">
+  <a href="https://www.yashviivekariya.site/"><b>Portfolio</b></a>
+  &nbsp;·&nbsp;
+  <a href="http://yashvi-ai-engineer-mvdc7u9.gamma.site/"><b>Portfolio II</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/yashvi-vekariya/"><b>LinkedIn</b></a>
+  &nbsp;·&nbsp;
+  <a href="mailto:vyashvi304@gmail.com"><b>Email</b></a>
+</p>
+
+---
+
+<table>
+<tr>
+<td width="68%" valign="top">
+
+## `AI_ENGINEER_OS // HOME`
+
+I build AI systems that move beyond isolated model calls—combining **retrieval, memory, tools, orchestration, structured interfaces, automation, evaluation, and backend systems** into software that can reason, act, and improve.
+
+```text
+INPUT
+  ↓
+DATA
+  ↓
+MODELS
+  ↓
+CONTEXT
+  ↓
+TOOLS
+  ↓
+AGENTS
+  ↓
+ORCHESTRATION
+  ↓
+EVALUATION
+  ↓
+SYSTEMS
+```
+
+</td>
+<td width="32%" valign="top">
+
+### `SYSTEM STATUS`
+
+| Signal | State |
+|---|---|
+| **Role** | AI Systems Engineer |
+| **Focus** | Agentic AI / LLM Systems |
+| **Mode** | Build → Evaluate → Refine |
+| **Bias** | Architecture > Buzzwords |
+| **North Star** | Reliable intelligent software |
+
+</td>
+</tr>
+</table>
+
+---
+
+## `NAVIGATION // MODULES`
+
+<table>
+<tr>
+<td align="center"><a href="#01--system-boot"><b>01<br/>BOOT</b></a></td>
+<td align="center"><a href="#02--signal-layer"><b>02<br/>SIGNALS</b></a></td>
+<td align="center"><a href="#03--model-layer"><b>03<br/>MODELS</b></a></td>
+<td align="center"><a href="#04--context-layer"><b>04<br/>CONTEXT</b></a></td>
+<td align="center"><a href="#05--tool-layer"><b>05<br/>TOOLS</b></a></td>
+<td align="center"><a href="#06--agent-layer"><b>06<br/>AGENTS</b></a></td>
+<td align="center"><a href="#07--systems-layer"><b>07<br/>SYSTEMS</b></a></td>
+<td align="center"><a href="#08--constellation"><b>08<br/>PROJECTS</b></a></td>
+<td align="center"><a href="#09--engineering-dna"><b>09<br/>DNA</b></a></td>
+</tr>
+</table>
+
+---
+
+# `01 // SYSTEM BOOT`
+
+> **What happens when data stops being something we only analyze—and starts becoming something software can reason over, retrieve from, act on, and coordinate around?**
+
+That question became the thread connecting my work.
+
+```mermaid
+flowchart LR
+    A["Data"] --> B["Machine Learning"]
+    B --> C["LLM Systems"]
+    C --> D["Retrieval"]
+    D --> E["Tools"]
+    E --> F["Agents"]
+    F --> G["Multi-Agent Systems"]
+    G --> H["Autonomous Workflows"]
+    H --> I["Reliable AI Systems"]
+```
+
+### `ENGINEERING IDENTITY`
+
+```text
+problem definition
+      ↓
+system architecture
+      ↓
+data / retrieval
+      ↓
+model integration
+      ↓
+agent orchestration
+      ↓
+tool integration
+      ↓
+API / backend
+      ↓
+evaluation
+      ↓
+observability
+      ↓
+deployment thinking
+```
+
+---
+
+# `02 // SIGNAL LAYER`
+
+<table>
+<tr>
+<td width="56%" valign="top">
+
+### `RAW SIGNALS`
+
+> **I started by learning how systems understand the world: through data.**
+
+Before agents and orchestration came the foundation:
+
+- Python
+- SQL
+- data analysis
+- feature engineering
+- predictive modeling
+- experimentation
+- evaluation
+
+The important lesson was simple:
+
+**good intelligence begins with good problem framing and measurable signals.**
+
+</td>
+<td width="44%" valign="top">
+
+### `SYSTEM TRACE`
+
+**Mutual Fund Predictive Analytics**
+
+`Problem`  
+Extract useful predictive structure from financial data.
+
+`Pipeline`  
+Data → features → model → evaluation → interpretation.
+
+`What it proves`  
+A data / ML foundation underneath later AI-system work.
+
+</td>
+</tr>
+</table>
+
+---
+
+# `03 // MODEL LAYER`
+
+> **Analyzing data was useful. Predicting from it was better.**
+
+```mermaid
+flowchart LR
+    P["Problem"] --> D["Dataset"]
+    D --> F["Feature Layer"]
+    F --> M["Model"]
+    M --> E["Evaluation"]
+    E --> X["Failure Analysis"]
+    X -->|iterate| F
+```
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### `LEARN`
+
+Pattern discovery, prediction, representation.
+
+</td>
+<td width="33%" valign="top">
+
+### `MEASURE`
+
+Metrics, error analysis, comparison, validation.
+
+</td>
+<td width="33%" valign="top">
+
+### `REFINE`
+
+Features, model choice, thresholds, workflow design.
+
+</td>
+</tr>
+</table>
+
+**Representative technologies:** `scikit-learn` · `PyTorch` · `TensorFlow` · `Python` · `SQL`
+
+---
+
+# `04 // CONTEXT LAYER`
+
+> **Models know patterns. Useful systems also need context.**
 
 <div align="center">
 
-# YASHVI VEKARIYA
+### `RAG PIPELINE // DOCUMENT → GROUNDED OUTPUT`
 
-### AI SYSTEMS ENGINEER
+</div>
 
-**Data → Models → Context → Agents → Autonomous Systems**
+```mermaid
+flowchart TD
+    S["Documents / Sources"] --> P["Parse + Chunk"]
+    P --> E["Embeddings"]
+    E --> V[("Vector Index")]
 
-I engineer AI systems that move beyond isolated model calls—combining retrieval, memory, tools, orchestration, structured interfaces, evaluation, automation, and backend systems into software that can reason, act, and be improved.
+    Q["User Query"] --> QE["Query Representation"]
+    QE --> R["Retriever"]
+    V --> R
 
-`STATUS  Building` &nbsp;&nbsp; `FOCUS  Agentic AI / LLM Systems` &nbsp;&nbsp; `MODE  Architecture → Evaluation → Deployment`
+    R --> C["Context Assembly"]
+    C --> L["LLM"]
+    L --> O["Grounded Response"]
+    O --> X["Evidence / Citations"]
+```
 
-[Portfolio](https://www.yashviivekariya.site/) ·
-[Portfolio II](http://yashvi-ai-engineer-mvdc7u9.gamma.site/) ·
-[LinkedIn](https://www.linkedin.com/in/yashvi-vekariya/) ·
-[GitHub](https://github.com/Yashvi-Vekariya) ·
-[Email](mailto:vyashvi304@gmail.com)
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### `AUTONOMOUS RESEARCH AGENT`
+
+Grounded research workflow focused on source-aware information gathering, structured synthesis, and autonomous task coordination.
+
+**Signals:** retrieval · web grounding · structured synthesis · citations
+
+</td>
+<td width="50%" valign="top">
+
+### `NEURON DOC`
+
+Document-intelligence / RAG direction centered on converting unstructured information into usable model context.
+
+**Signals:** chunking · embeddings · vector search · retrieval
+
+</td>
+</tr>
+</table>
+
+---
+
+# `05 // TOOL LAYER`
+
+> **Context made models informed. Tools made them capable.**
+
+```text
+                    ┌───────────────┐
+                    │  LLM / AGENT  │
+                    └───────┬───────┘
+                            │
+          ┌─────────────────┼─────────────────┐
+          │                 │                 │
+       SEARCH              APIs             MEMORY
+          │                 │                 │
+          └──────────┬──────┴──────┬──────────┘
+                     │             │
+                AUTOMATION     STRUCTURED
+                                OUTPUTS
+                     │             │
+                     └──────┬──────┘
+                            │
+                    EXTERNAL SYSTEMS
+```
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### `AetherMind`
+
+Enterprise-intelligence direction combining **memory** with productivity-style integrations and tool-mediated workflows.
+
+</td>
+<td width="33%" valign="top">
+
+### `YouTube Automation`
+
+n8n-based AI automation pipeline for content-generation and publishing workflows.
+
+</td>
+<td width="33%" valign="top">
+
+### `Research Agent`
+
+Research orchestration with external information access and structured synthesis.
+
+</td>
+</tr>
+</table>
+
+`tool calling` · `REST APIs` · `OAuth` · `automation` · `external integrations` · `structured outputs`
+
+---
+
+# `06 // AGENT LAYER`
+
+<div align="center">
+
+## `FROM ONE MODEL → COORDINATED INTELLIGENCE`
+
+</div>
+
+> **One intelligent component can solve a task. A coordinated system can solve a workflow.**
+
+```mermaid
+flowchart TD
+    U["User / Task"] --> S["Supervisor / Orchestrator"]
+
+    S --> R["Research / Retrieval"]
+    S --> A["Analysis / Reasoning"]
+    S --> T["Tool Execution"]
+    S --> W["Specialized Worker"]
+
+    R --> ST[("Shared State / Memory")]
+    A --> ST
+    T --> ST
+    W --> ST
+
+    ST --> V["Validation / Structured Output"]
+    V --> O["Response / Action"]
+    V -. "human checkpoint where required" .-> H["Human Review"]
+```
+
+> Repository-specific READMEs should only claim nodes that are actually implemented.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### `ARBITER`
+
+Autonomous multi-agent legal AI using **LangGraph** and a **supervisor-worker architecture**.
+
+**Focus:** graph orchestration · specialized agents · shared state
+
+</td>
+<td width="33%" valign="top">
+
+### `AgentForge OS`
+
+Agent-engineering platform direction combining orchestration with **LoRA / fine-tuning, MLflow, logs, evaluation, and AI infrastructure concepts**.
+
+</td>
+<td width="33%" valign="top">
+
+### `AetherMind`
+
+Memory-aware enterprise AI direction combining intelligent workflows with external-system integrations.
+
+</td>
+</tr>
+</table>
+
+### `AGENT MATURITY CHECKLIST`
+
+```text
+[✓] responsibility boundaries
+[✓] routing
+[✓] explicit state
+[✓] tools
+[✓] structured outputs
+[~] evaluation
+[~] observability
+[~] human checkpoints
+[→] long-running reliability
+```
+
+`✓ implemented where repository evidence supports it`  
+`~ active engineering focus`  
+`→ next-stage system capability`
+
+---
+
+# `07 // SYSTEMS LAYER`
+
+<div align="center">
+
+# `SYSTEMS > DEMOS`
+
+**A demo proves an idea can work. Engineering asks whether it can keep working.**
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### `INTELLIGENCE PLANE`
+
+```text
+Models
+Retrieval
+Memory
+Tools
+Planning / Routing
+Structured Outputs
+```
+
+</td>
+<td width="50%" valign="top">
+
+### `ENGINEERING PLANE`
+
+```text
+Evaluation
+Observability
+Typed Interfaces
+Failure Handling
+Testing
+Security
+Latency
+Cost
+Human Oversight
+```
+
+</td>
+</tr>
+</table>
+
+### `PRODUCTION THINKING MATRIX`
+
+| Layer | Engineering question |
+|---|---|
+| **Evaluation** | Did behavior improve—or merely change? |
+| **Reliability** | What happens when a model, tool, API, or retriever fails? |
+| **Observability** | Can we inspect what the system did? |
+| **Interfaces** | Are state, inputs, outputs, and tool contracts explicit? |
+| **Testing** | Which components can be tested deterministically? |
+| **Security** | What can the system access, expose, or execute? |
+| **Latency** | Which stage dominates end-to-end response time? |
+| **Cost** | Where are model calls, tokens, or retrieval operations wasted? |
+| **Oversight** | Which actions should remain approval-gated? |
+| **Maintainability** | Can one layer change without destabilizing the system? |
+
+---
+
+# `08 // CONSTELLATION`
+
+<div align="center">
+
+## `SYSTEM CONSTELLATION`
+
+**Projects grouped by what they prove—not by how many repositories exist.**
+
+</div>
+
+### `AGENT SYSTEMS`
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### `ARBITER`
+
+**Mission**  
+Multi-agent legal intelligence.
+
+**Architecture**  
+Supervisor-worker / graph orchestration.
+
+**Engineering signal**  
+Responsibility decomposition, routing, state.
+
+**Stack**  
+`LangGraph` · `Python` · `LLMs`
+
+[Repository →](https://github.com/Yashvi-Vekariya?tab=repositories&q=ARBITER)
+
+</td>
+<td width="33%" valign="top">
+
+#### `AgentForge OS`
+
+**Mission**  
+Agent engineering + AI infrastructure.
+
+**Architecture**  
+Agent platform / evaluation / ML infrastructure direction.
+
+**Engineering signal**  
+Orchestration, LoRA, MLflow, logs.
+
+**Stack**  
+`Python` · `MLflow` · `LoRA`
+
+[Repository →](https://github.com/Yashvi-Vekariya?tab=repositories&q=AgentForge)
+
+</td>
+<td width="33%" valign="top">
+
+#### `AetherMind`
+
+**Mission**  
+Memory-aware enterprise intelligence.
+
+**Architecture**  
+Agent + memory + external tools.
+
+**Engineering signal**  
+Integrations, state, action-oriented AI.
+
+**Stack**  
+`Python` · `LLMs` · `APIs`
+
+[Repository →](https://github.com/Yashvi-Vekariya?tab=repositories&q=AetherMind)
+
+</td>
+</tr>
+</table>
+
+### `RETRIEVAL / RESEARCH`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### `Autonomous Research Agent`
+
+**Mission**  
+Grounded autonomous research.
+
+**Architecture**  
+Research orchestration + retrieval + synthesis.
+
+**Engineering signal**  
+Source grounding and structured research workflows.
+
+[Repository →](https://github.com/Yashvi-Vekariya?tab=repositories&q=research)
+
+</td>
+<td width="50%" valign="top">
+
+#### `Neuron Doc`
+
+**Mission**  
+Turn documents into usable model context.
+
+**Architecture**  
+RAG / document intelligence.
+
+**Engineering signal**  
+Chunking, embeddings, vector search, retrieval.
+
+</td>
+</tr>
+</table>
+
+### `APPLIED INTELLIGENCE`
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### `DeutschMentor AI`
+
+Speech / text AI for a production-shaped language-learning experience.
+
+[Repository →](https://github.com/Yashvi-Vekariya?tab=repositories&q=DeutschMentor)
+
+</td>
+<td width="33%" valign="top">
+
+#### `SkillSphere OS`
+
+AI-native workforce intelligence and verifiable-skill infrastructure direction.
+
+[Repository →](https://github.com/Yashvi-Vekariya?tab=repositories&q=SkillSphere)
+
+</td>
+<td width="33%" valign="top">
+
+#### `AEGIS`
+
+AI-powered burnout detection and intervention workflow.
+
+[Repository →](https://github.com/Yashvi-Vekariya?tab=repositories&q=AEGIS)
+
+</td>
+</tr>
+</table>
+
+---
+
+# `THE SYSTEM I WOULD SHOW FIRST // ARBITER`
+
+<table>
+<tr>
+<td width="62%" valign="top">
+
+### `WHY THIS SYSTEM`
+
+Legal-intelligence workflows are a useful stress test for agent architecture because they require **task decomposition, context handling, disciplined intermediate reasoning, and structured synthesis**.
+
+### `ENGINEERING CHALLENGE`
+
+The hard part is not creating more agents.
+
+It is defining:
+
+- responsibility boundaries
+- routing logic
+- shared state
+- tool boundaries
+- output contracts
+- validation points
+
+so coordination adds value instead of complexity.
+
+</td>
+<td width="38%" valign="top">
+
+### `SYSTEM CARD`
+
+**Type**  
+Multi-Agent AI
+
+**Pattern**  
+Supervisor → workers
+
+**Core idea**  
+Graph-based orchestration
+
+**Focus**  
+State · routing · synthesis
+
+**Repository**  
+[Open ARBITER →](https://github.com/Yashvi-Vekariya?tab=repositories&q=ARBITER)
+
+</td>
+</tr>
+</table>
+
+```mermaid
+flowchart TD
+    U["Legal Task"] --> S["Supervisor"]
+    S --> W1["Specialized Worker"]
+    S --> W2["Research / Retrieval"]
+    S --> W3["Analysis"]
+    W1 --> ST[("Graph State")]
+    W2 --> ST
+    W3 --> ST
+    ST --> S
+    S --> V["Synthesis / Validation"]
+    V --> O["Structured Response"]
+```
+
+> **What this project taught me:** multi-agent design is primarily a systems-design problem. Coordination quality matters more than agent count.
+
+---
+
+# `09 // ENGINEERING DNA`
+
+<div align="center">
+
+## `STACK AS SYSTEM LAYERS`
+
+</div>
+
+```mermaid
+flowchart TB
+    A["AI SYSTEMS<br/>LLMs · RAG · Agents · Multi-Agent Workflows"]
+    B["ORCHESTRATION<br/>State · Routing · Tool Calling · Structured Outputs"]
+    C["RETRIEVAL + MEMORY<br/>Embeddings · Vector Search · FAISS · ChromaDB · Context"]
+    D["BACKEND<br/>FastAPI · Pydantic · Async Python · REST APIs · OAuth"]
+    E["DATA / ML<br/>Python · SQL · scikit-learn · PyTorch · TensorFlow"]
+    F["AUTOMATION + INFRASTRUCTURE<br/>n8n · Docker · CI/CD · AWS / Azure · MLflow"]
+
+    A --> B --> C --> D --> E --> F
+```
+
+### `DURABLE CONCEPTS > FRAMEWORK IDENTITY`
+
+Frameworks change.
+
+The system problems stay:
+
+`orchestration` · `retrieval` · `evaluation` · `model abstraction` · `memory` · `context engineering` · `tool interfaces` · `APIs` · `observability` · `security` · `cost-performance tradeoffs` · `human-agent interaction`
+
+---
+
+# `10 // BUILD LOOP`
+
+```mermaid
+flowchart LR
+    A["Problem"] --> B["Architecture"]
+    B --> C["Prototype"]
+    C --> D["Evaluation"]
+    D --> E["Failure Analysis"]
+    E --> F["Refinement"]
+    F --> G["Deployment Thinking"]
+    G --> H["Observe"]
+    H -->|iterate| D
+```
+
+<div align="center">
+
+**DEFINE → ARCHITECT → BUILD → MEASURE → INSPECT FAILURES → REFINE → OPERATE**
 
 </div>
 
 ---
 
-## CHAPTER 00 / SYSTEM BOOT
+# `11 // LIVE FOCUS`
 
-My journey started with a simple question:
+<table>
+<tr>
+<td width="25%" valign="top">
 
-> **What happens when data stops being something we only analyze—and starts becoming something systems can reason over, retrieve from, act on, and coordinate around?**
+### `01`
+**Reliable agent orchestration**
 
-That question gradually changed the kind of systems I wanted to build.
+State, routing, contracts, failure paths.
 
-```mermaid
-flowchart LR
-    A[Data Analytics] --> B[Machine Learning]
-    B --> C[LLM Systems]
-    C --> D[Retrieval]
-    D --> E[Tool-Using Agents]
-    E --> F[Multi-Agent Systems]
-    F --> G[Autonomous AI Systems]
-```
+</td>
+<td width="25%" valign="top">
 
-The progression matters more to me than any single framework.
+### `02`
+**Agent evaluation**
 
-I am interested in the full engineering path:
+Trajectories, tool use, output validity, task completion.
 
-**problem definition → architecture → data / context → model integration → orchestration → tools → APIs → evaluation → observability → deployment thinking**
+</td>
+<td width="25%" valign="top">
 
----
+### `03`
+**Context + memory**
 
-## CHAPTER 01 / RAW SIGNALS
+Relevant information without uncontrolled context growth.
 
-> **I started by learning how systems understand the world: through data.**
+</td>
+<td width="25%" valign="top">
 
-Before agents, orchestration, or retrieval, there is a more basic engineering problem: extracting signal from imperfect inputs.
+### `04`
+**AI observability**
 
-That foundation shaped how I approach AI systems today—define the problem, structure the data, measure behavior, and avoid confusing a compelling demo with reliable evidence.
+Make multi-step behavior easier to inspect and improve.
 
-### SYSTEM TRACE / MUTUAL FUND PREDICTIVE ANALYTICS
-
-| Layer | Evidence |
-|---|---|
-| **Mission** | Explore financial data through predictive analytics and ML workflows. |
-| **Signal extracted** | Patterns useful for prediction, comparison, and decision-support analysis. |
-| **Engineering concept** | Data preparation → feature work → modeling → evaluation → interpretable outputs. |
-| **What it represents** | My data / ML foundation before moving deeper into LLM systems. |
-
-**Foundation:** Python · SQL · data analysis · feature engineering · predictive modeling · experimentation
+</td>
+</tr>
+</table>
 
 ---
 
-## CHAPTER 02 / TEACHING MACHINES
+# `12 // NEXT SYSTEMS`
 
-> **Analyzing data was useful. Predicting from it was better.**
+> These are **exploration directions**, not claims of completed expertise.
 
-This stage moved my work from describing historical signals toward building systems that learn patterns and produce predictions.
-
-Instead of treating ML as a list of libraries, I think about the pipeline:
-
-```mermaid
-flowchart LR
-    A[Problem] --> B[Dataset]
-    B --> C[Features]
-    C --> D[Model]
-    D --> E[Evaluation]
-    E --> F[Failure Analysis]
-    F -->|iterate| C
-```
-
-The important part is not only training a model. It is understanding:
-
-**what the target means · how the data is shaped · how the model fails · which metric matters · whether the result is actually useful**
-
-Technologies appearing across this layer of my work include **scikit-learn, PyTorch, TensorFlow, Python, SQL, and evaluation workflows**.
+| State | Direction | System question |
+|---|---|---|
+| `EXPLORING` | Model routing | Which model should handle which task, at what latency / cost? |
+| `EXPLORING` | Multimodal agents | How should systems coordinate text, vision, audio, and tools? |
+| `NEXT` | Long-running workflows | How should state survive retries, checkpoints, and resumptions? |
+| `NEXT` | AI security | How should tool permissions, prompt injection, and data boundaries be controlled? |
+| `NEXT` | LLMOps / inference optimization | How can model serving become cheaper, faster, and more observable? |
+| `NEXT` | Human-agent collaboration | Where should automation stop and human judgment begin? |
 
 ---
 
-## CHAPTER 03 / GIVING MODELS CONTEXT
+<details>
+<summary><strong>⌘ open developer console // inspect_system()</strong></summary>
 
-> **Models know patterns. Useful systems also need context.**
-
-LLMs became more interesting to me when I stopped treating the prompt as the entire system.
-
-Retrieval introduced a different engineering problem: how to select, structure, rank, and pass the right information to a model at the right time.
-
-```mermaid
-flowchart TD
-    A[Documents / Sources] --> B[Parse + Chunk]
-    B --> C[Embeddings]
-    C --> D[Vector Index]
-    Q[User Query] --> E[Query Representation]
-    E --> F[Retrieval]
-    D --> F
-    F --> G[Context Assembly]
-    G --> H[LLM]
-    H --> I[Grounded Response]
-    I --> J[Citations / Evidence]
-```
-
-### SYSTEMS IN THIS CHAPTER
-
-**Autonomous Research Agent with Web Grounding**  
-Grounded research workflow focused on gathering information, coordinating research tasks, and producing structured synthesis with source-aware reasoning.
-
-**Neuron Doc**  
-Document-intelligence / retrieval direction centered on turning unstructured documents into useful model context.
-
-This stage pushed me deeper into:
-
-`retrieval` · `embeddings` · `vector search` · `context management` · `grounding` · `citations` · `RAG`
-
----
-
-## CHAPTER 04 / GIVING AI TOOLS
-
-> **Context made models informed. Tools made them capable.**
-
-Once an LLM can retrieve information, the next question is whether it can interact with the systems around it.
+<br/>
 
 ```text
-LLM / AGENT
-│
-├── Search
-├── APIs
-├── Memory
-├── Structured Outputs
-├── Automation
-└── External Systems
+SYSTEM PRINCIPLES
+────────────────────────────────────────
+01  Evidence > adjectives
+02  Architecture > buzzwords
+03  Explicit state > invisible behavior
+04  Structured interfaces > fragile handoffs
+05  Evaluation > "it feels better"
+06  Reliability > demo magic
+07  Fewer deep systems > dozens of equal projects
 ```
 
-That changes the system from:
+### `PROBLEMS I LIKE`
 
-**“generate an answer”**
+- How should responsibilities be split across agents?
+- When should a system retrieve, call a tool, ask a human, or stop?
+- What belongs in memory vs retrieval vs transient state?
+- How do we make agent trajectories observable and testable?
+- How do we keep AI useful when a dependency fails?
+- Which steps need an LLM—and which steps should remain deterministic?
 
-into:
+### `CURRENT EXPERIMENT DIRECTION`
 
-**“decide what to do, use a capability, observe the result, update state, and continue.”**
+Architecture-first AI systems combining:
 
-### SYSTEMS IN THIS CHAPTER
+`retrieval` + `tools` + `explicit state` + `evaluation` + `backend interfaces` + `observable workflows`
 
-**AetherMind**  
-Autonomous enterprise-intelligence direction combining memory with productivity-style integrations and tool-mediated workflows.
-
-**AI YouTube Automation**  
-n8n-based AI automation pipeline for orchestrating content-generation and publishing steps.
-
-**Autonomous Research Agent**  
-Research orchestration with external information access, structured synthesis, and grounded output.
-
-Engineering themes:
-
-**tool calling · REST APIs · OAuth · automation · external integrations · structured outputs · stateful workflows**
+</details>
 
 ---
 
-## CHAPTER 05 / FROM ONE MODEL TO MANY AGENTS
-
-> **One intelligent component can solve a task. A coordinated system can solve a workflow.**
-
-This is the layer I am most interested in: moving from single-call applications toward systems in which responsibilities are separated, state is explicit, tools are controlled, and multiple components cooperate around a larger objective.
-
-```mermaid
-flowchart TD
-    U[User / Task] --> S[Supervisor / Orchestrator]
-
-    S --> R[Research / Retrieval]
-    S --> A[Analysis / Reasoning]
-    S --> T[Tool Execution]
-    S --> P[Specialized Worker]
-
-    R --> ST[(Shared State / Memory)]
-    A --> ST
-    T --> ST
-    P --> ST
-
-    ST --> V[Validation / Structured Output]
-    V --> O[Response / Action]
-
-    V -. human checkpoint where required .-> H[Human Review]
-```
-
-> The diagram above represents the orchestration pattern I work toward. Repository-specific READMEs should document only the nodes actually implemented in each system.
-
-### SYSTEMS IN THIS CHAPTER
-
-**ARBITER**  
-Autonomous multi-agent legal AI built around a **LangGraph supervisor-worker architecture**.
-
-**AgentForge OS**  
-Agent-engineering platform direction combining orchestration with fine-tuning / LoRA, MLflow, logging, evaluation, and infrastructure-oriented concepts.
-
-**AetherMind**  
-Enterprise-oriented intelligent system with memory and external integrations.
-
-Across agent systems, the concepts I care about are:
-
-**routing · specialized responsibilities · explicit state · memory · tool execution · structured responses · validation · human checkpoints where appropriate**
-
----
-
-## CHAPTER 06 / SYSTEMS > DEMOS
-
-# SYSTEMS > DEMOS
-
-> **An AI demo proves an idea can work. Engineering asks whether it can keep working, fail clearly, and improve safely.**
-
-The model is only one layer.
+# `13 // EVIDENCE MODE`
 
 ```text
-AI SYSTEM
-│
-├── Intelligence
-├── Context / Retrieval
-├── Orchestration
-├── Tools / Integrations
-├── Memory / State
-├── Typed Interfaces
-├── Evaluation
-├── Observability
-├── Failure Handling
-└── Infrastructure
+NO FAKE METRICS
+NO FAKE "PRODUCTION" CLAIMS
+NO FAKE BENCHMARKS
+NO FAKE POPULARITY
 ```
 
-### ENGINEERING QUESTIONS I CARE ABOUT
+Where a repository contains a measured result, I document it with its evaluation context.
 
-| Dimension | Question |
-|---|---|
-| **Evaluation** | How do we know the system is improving rather than merely changing? |
-| **Reliability** | What happens when a model, API, retriever, or tool fails? |
-| **Observability** | Can we understand what the system did and why? |
-| **Typed interfaces** | Are inputs, outputs, state, and tool contracts explicit? |
-| **Testing** | Which deterministic components can be tested independently? |
-| **Security** | What can the system access, execute, expose, or trust? |
-| **Latency** | Which step dominates the user-perceived response time? |
-| **Cost** | Where are tokens, model calls, retrieval, or infrastructure wasted? |
-| **Human oversight** | Which decisions should remain reviewable or approval-gated? |
-| **Maintainability** | Can a future engineer change one layer without breaking every other layer? |
+Where measurement has not yet been completed, I prefer to expose the **evaluation design** rather than an unsupported number.
 
-I do not present these as claims that every repository has solved every dimension. They are the standard I use to decide what a serious AI system still needs.
+### `METRICS I WANT MATURE SYSTEMS TO REPORT`
 
----
-
-# SYSTEM CONSTELLATION
-
-Not every repository needs equal attention. These are the systems that best explain the engineering direction of my GitHub.
-
-### AGENT SYSTEMS
-
-| System | What it demonstrates |
-|---|---|
-| **[ARBITER](https://github.com/Yashvi-Vekariya?tab=repositories&q=ARBITER)** | Multi-agent legal intelligence, supervisor-worker orchestration, graph-based coordination. |
-| **[AgentForge OS](https://github.com/Yashvi-Vekariya?tab=repositories&q=AgentForge)** | Agent engineering, AI infrastructure concepts, fine-tuning / LoRA, MLflow, logging, evaluation direction. |
-| **[AetherMind](https://github.com/Yashvi-Vekariya?tab=repositories&q=AetherMind)** | Memory-aware enterprise intelligence with external integrations. |
-
-### RETRIEVAL + RESEARCH
-
-| System | What it demonstrates |
-|---|---|
-| **[Autonomous Research Agent with Web Grounding](https://github.com/Yashvi-Vekariya?tab=repositories&q=research)** | Autonomous research, web grounding, structured synthesis, source-aware workflows. |
-| **Neuron Doc** | Document intelligence and RAG-oriented context engineering. |
-
-### APPLIED AI SYSTEMS
-
-| System | What it demonstrates |
-|---|---|
-| **[DeutschMentor AI](https://github.com/Yashvi-Vekariya?tab=repositories&q=DeutschMentor)** | Speech / text AI applied to a production-shaped language-learning experience. |
-| **[SkillSphere OS](https://github.com/Yashvi-Vekariya?tab=repositories&q=SkillSphere)** | AI-native workforce intelligence and verifiable-skill infrastructure direction. |
-| **[AEGIS](https://github.com/Yashvi-Vekariya?tab=repositories&q=AEGIS)** | AI-powered burnout-detection and intervention workflow. |
-
-### AUTOMATION + ML
-
-| System | What it demonstrates |
-|---|---|
-| **AI YouTube Automation** | n8n-orchestrated AI content workflow and publishing automation. |
-| **Mutual Fund Predictive Analytics** | Data analysis, feature work, predictive modeling, and ML evaluation. |
+<table>
+<tr>
+<td>Task completion rate</td>
+<td>Structured-output validity</td>
+<td>Tool success rate</td>
+</tr>
+<tr>
+<td>Retrieval precision / recall</td>
+<td>Faithfulness / context relevance</td>
+<td>Latency / failure rate</td>
+</tr>
+<tr>
+<td>Token usage</td>
+<td>Cost per task</td>
+<td>Trajectory quality</td>
+</tr>
+</table>
 
 ---
 
-# THE SYSTEM I WOULD SHOW FIRST
-
-## ARBITER
-
-**Mission**  
-Explore how a legal-intelligence workflow can be decomposed into coordinated AI responsibilities instead of one oversized prompt.
-
-**Architecture**  
-Supervisor-worker multi-agent orchestration using LangGraph, with specialized workflow responsibilities coordinated through graph/state logic.
-
-```mermaid
-flowchart TD
-    U[User / Legal Task] --> S[Supervisor]
-
-    S --> W1[Specialized Worker]
-    S --> W2[Research / Retrieval Worker]
-    S --> W3[Analysis Worker]
-
-    W1 --> ST[(Graph State)]
-    W2 --> ST
-    W3 --> ST
-
-    ST --> S
-    S --> V[Final Synthesis / Validation]
-    V --> O[Structured Response]
-```
-
-**Why it matters**  
-Legal workflows are a useful stress test for agent architecture because the system needs decomposition, context handling, traceable intermediate work, and disciplined final synthesis.
-
-**Engineering challenge**  
-The difficult part is not creating more agents. It is defining **responsibility boundaries, routing logic, shared state, and output contracts** so orchestration adds value instead of complexity.
-
-**What this project taught me**  
-Multi-agent design is primarily a systems-design problem: coordination quality matters more than agent count.
-
-**Repository**  
-→ [Find ARBITER on my GitHub](https://github.com/Yashvi-Vekariya?tab=repositories&q=ARBITER)
-
----
-
-# REUSABLE SYSTEM CARD
+# `14 // REUSABLE COMPONENT`
 
 <!--
-Copy this block to add a new system.
-Change only:
-1. Name
-2. Mission
-3. Architecture
-4. Engineering problem
-5. Stack
-6. Repository URL
+COPY/PASTE THIS BLOCK FOR A NEW PROJECT.
+Change:
+- system name
+- mission
+- architecture
+- engineering problem
+- stack
+- repository URL
 -->
 
 <table>
@@ -376,7 +894,7 @@ One sentence describing the real problem.
 <td width="50%" valign="top">
 
 **Interesting engineering problem**  
-One sentence about the non-trivial technical problem.
+One sentence about the non-trivial technical challenge.
 
 **Stack**  
 `Tech 1` · `Tech 2` · `Tech 3` · `Tech 4`
@@ -390,129 +908,7 @@ One sentence about the non-trivial technical problem.
 
 ---
 
-# ENGINEERING DNA
-
-I prefer describing my stack as system layers rather than as a logo wall.
-
-```mermaid
-flowchart TB
-    A["AI SYSTEMS<br/>LLMs · RAG · Agents · Multi-Agent Workflows"]
-    B["ORCHESTRATION<br/>State · Routing · Tool Calling · Structured Outputs"]
-    C["RETRIEVAL + MEMORY<br/>Embeddings · Vector Search · FAISS · ChromaDB · Context"]
-    D["BACKEND<br/>FastAPI · Pydantic · Async Python · REST APIs · OAuth"]
-    E["DATA / ML<br/>Python · SQL · scikit-learn · PyTorch · TensorFlow"]
-    F["AUTOMATION + INFRASTRUCTURE<br/>n8n · Docker · CI/CD · AWS / Azure · MLflow"]
-
-    A --> B --> C --> D --> E --> F
-```
-
-### DURABLE CONCEPTS > FRAMEWORK IDENTITY
-
-Frameworks will change.
-
-The engineering problems remain:
-
-**orchestration · retrieval · evaluation · model abstraction · data pipelines · memory · context engineering · tool interfaces · APIs · observability · security · cost-performance tradeoffs · human-agent interaction**
-
----
-
-# HOW I BUILD
-
-```mermaid
-flowchart LR
-    A[Problem] --> B[Architecture]
-    B --> C[Prototype]
-    C --> D[Evaluation]
-    D --> E[Failure Analysis]
-    E --> F[Refinement]
-    F --> G[Deployment Thinking]
-    G --> H[Observe]
-    H -->|iterate| D
-```
-
-My preferred loop is simple:
-
-**define → architect → build → measure → inspect failures → refine → operate**
-
-The goal is not to protect the first implementation.
-
-The goal is to make the system easier to understand, evaluate, and improve.
-
----
-
-# CURRENT MISSION
-
-I am currently deepening the parts of AI engineering that become important after the first successful prototype:
-
-○ **Reliable agent orchestration** — clearer state, routing, contracts, and failure paths  
-○ **Agent evaluation** — measuring trajectories, tool use, output validity, and task completion  
-○ **Context + memory architecture** — giving systems the right information without uncontrolled context growth  
-○ **AI observability** — making multi-step behavior easier to inspect, debug, and improve
-
----
-
-# NEXT SYSTEMS
-
-These are **exploration directions**, not claims of completed expertise.
-
-| Status | Direction | Why I am interested |
-|---|---|---|
-| `EXPLORING` | Model routing | Selecting models based on task, latency, cost, and capability. |
-| `EXPLORING` | Multimodal agents | Systems that reason across text, vision, audio, or other modalities. |
-| `NEXT` | Long-running workflows | Durable state, checkpoints, resumability, retries, and approval boundaries. |
-| `NEXT` | AI security | Tool permissions, prompt-injection resistance, data boundaries, and safer execution. |
-| `NEXT` | LLMOps / inference optimization | Better deployment, monitoring, model choice, latency, and cost control. |
-| `NEXT` | Human-agent collaboration | Designing systems where automation and human judgment reinforce each other. |
-
----
-
-<details>
-<summary><strong>inspect_system()</strong></summary>
-
-<br/>
-
-### PRINCIPLES
-
-- Prefer evidence over adjectives.
-- Prefer architecture over buzzwords.
-- Prefer explicit state over invisible behavior.
-- Prefer structured interfaces over fragile free-form handoffs.
-- Prefer evaluation over “it feels better.”
-- Prefer six deeply engineered systems over dozens of equally promoted repositories.
-- Prefer useful automation over agent complexity for its own sake.
-
-### PROBLEMS I ENJOY
-
-- How should responsibilities be split across agents?
-- When should a system retrieve, call a tool, ask a human, or stop?
-- What belongs in memory versus retrieval versus transient state?
-- How do we make agent trajectories observable and testable?
-- How do we keep an AI system useful when a dependency fails?
-- Which parts need an LLM—and which parts absolutely do not?
-
-### CURRENT EXPERIMENT DIRECTION
-
-Architecture-first AI systems that combine retrieval, tools, explicit state, evaluation, backend interfaces, and observable workflows.
-
-</details>
-
----
-
-# ENGINEERING EVIDENCE
-
-I do not publish invented benchmark numbers.
-
-Where a repository contains a real measured result, I document the metric with its evaluation context. Where measurement has not yet been completed, I prefer to expose the evaluation design instead of presenting an unsupported number.
-
-Useful evidence I want every mature AI repository to move toward:
-
-`task completion rate` · `structured-output validity` · `retrieval precision / recall` · `faithfulness` · `tool success rate` · `latency` · `failure rate` · `token / cost usage`
-
----
-
-# CHAPTER 07 / WHAT I AM BUILDING NEXT
-
-The direction is becoming clearer:
+# `15 // FINAL NODE`
 
 ```text
 DATA
@@ -532,24 +928,30 @@ EVALUATION
 RELIABLE AI SYSTEMS
 ```
 
-I am less interested in making AI appear intelligent.
+I am less interested in making AI **appear** intelligent.
 
-I am more interested in the engineering required to make intelligent behavior **useful, inspectable, measurable, and maintainable**.
+I am more interested in the engineering required to make intelligent behavior:
+
+**useful · inspectable · measurable · maintainable**
 
 ---
 
-<div align="center">
+<p align="center">
 
-## SYSTEM LINKS
+### `SYSTEM LINKS`
 
-[Portfolio](https://www.yashviivekariya.site/)  
-[Portfolio II](http://yashvi-ai-engineer-mvdc7u9.gamma.site/)  
-[LinkedIn](https://www.linkedin.com/in/yashvi-vekariya/)  
-[GitHub](https://github.com/Yashvi-Vekariya)  
-[Email](mailto:vyashvi304@gmail.com)
+<a href="https://www.yashviivekariya.site/">Portfolio</a>
+&nbsp;·&nbsp;
+<a href="http://yashvi-ai-engineer-mvdc7u9.gamma.site/">Portfolio II</a>
+&nbsp;·&nbsp;
+<a href="https://www.linkedin.com/in/yashvi-vekariya/">LinkedIn</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/Yashvi-Vekariya">GitHub</a>
+&nbsp;·&nbsp;
+<a href="mailto:vyashvi304@gmail.com">Email</a>
 
-<br/>
+<br/><br/>
 
-**Building the layers that turn models into systems.**
+**BUILDING THE LAYERS THAT TURN MODELS INTO SYSTEMS.**
 
-</div>
+</p>
