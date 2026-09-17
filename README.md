@@ -12,7 +12,7 @@ MAINTENANCE:
 -->
 
 <p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Yashvi Vekariya — AI Systems Engineer"/>
+  <img src="C:\Users\Lenovo\Downloads\profile-header.svg"/>
 </p>
 
 <p align="center">
