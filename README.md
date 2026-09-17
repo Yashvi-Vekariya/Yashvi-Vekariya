@@ -1,4 +1,4 @@
-<!--
+<img width="1200" height="420" alt="profile-header" src="https://github.com/user-attachments/assets/87884eff-25d9-4aa1-8d64-f2a03b374e44" /><!--
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                    YASHVI // AI ENGINEER OS                         ║
 ║ GitHub-native application-style profile README                     ║
@@ -12,7 +12,68 @@ MAINTENANCE:
 -->
 
 <p align="center">
-  <img src="C:\Users\Lenovo\Downloads\profile-header.svg"/>
+  <img src="![Uplo<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0F14"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="120" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6EE7B7" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#A7F3D0"/>
+      <stop offset="1" stop-color="#6EE7B7" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="418" rx="27" stroke="#243244"/>
+
+  <!-- top bar -->
+  <circle cx="44" cy="38" r="6" fill="#374151"/>
+  <circle cx="64" cy="38" r="6" fill="#374151"/>
+  <circle cx="84" cy="38" r="6" fill="#374151"/>
+  <text x="600" y="43" fill="#6B7280" font-family="Inter,Segoe UI,Arial" font-size="14" text-anchor="middle">github://yashvi-vekariya/ai-systems</text>
+
+  <!-- left system label -->
+  <text x="82" y="114" fill="#6EE7B7" font-family="Inter,Segoe UI,Arial" font-size="14" letter-spacing="3">AI ENGINEERING SYSTEM</text>
+
+  <text x="82" y="175" fill="#F9FAFB" font-family="Inter,Segoe UI,Arial" font-size="44" font-weight="700">YASHVI VEKARIYA</text>
+  <text x="82" y="215" fill="#9CA3AF" font-family="Inter,Segoe UI,Arial" font-size="22">AI Systems Engineer</text>
+
+  <!-- architecture line -->
+  <line x1="82" y1="278" x2="1118" y2="278" stroke="url(#line)" stroke-width="2"/>
+  <g font-family="Inter,Segoe UI,Arial" font-size="15" fill="#D1D5DB">
+    <text x="82" y="315">DATA</text>
+    <text x="278" y="315">MODELS</text>
+    <text x="474" y="315">CONTEXT</text>
+    <text x="682" y="315">AGENTS</text>
+    <text x="870" y="315">SYSTEMS</text>
+  </g>
+  <g fill="#6EE7B7" filter="url(#glow)">
+    <circle cx="110" cy="278" r="5"/>
+    <circle cx="310" cy="278" r="5"/>
+    <circle cx="510" cy="278" r="5"/>
+    <circle cx="715" cy="278" r="5"/>
+    <circle cx="908" cy="278" r="5"/>
+    <circle cx="1110" cy="278" r="5"/>
+  </g>
+
+  <!-- status chips -->
+  <rect x="82" y="346" width="156" height="34" rx="17" fill="#0F172A" stroke="#263449"/>
+  <text x="160" y="368" fill="#A7F3D0" font-family="Inter,Segoe UI,Arial" font-size="12" text-anchor="middle">STATUS · BUILDING</text>
+
+  <rect x="252" y="346" width="248" height="34" rx="17" fill="#0F172A" stroke="#263449"/>
+  <text x="376" y="368" fill="#D1D5DB" font-family="Inter,Segoe UI,Arial" font-size="12" text-anchor="middle">FOCUS · AGENTIC AI / LLM SYSTEMS</text>
+
+  <rect x="514" y="346" width="280" height="34" rx="17" fill="#0F172A" stroke="#263449"/>
+  <text x="654" y="368" fill="#D1D5DB" font-family="Inter,Segoe UI,Arial" font-size="12" text-anchor="middle">MODE · ARCHITECT → EVALUATE → SHIP</text>
+</svg>
+ading profile-header.svg…]()
+"/>
 </p>
 
 <p align="center">
