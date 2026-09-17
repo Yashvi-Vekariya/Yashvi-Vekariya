@@ -1,4 +1,6 @@
-<img width="1200" height="420" alt="profile-header" src="https://github.com/user-attachments/assets/87884eff-25d9-4aa1-8d64-f2a03b374e44" /><!--
+<img width="1200" height="420" alt="profile-header" src="https://github.com/user-attachments/assets/87884eff-25d9-4aa1-8d64-f2a03b374e44" />
+
+<!--
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                    YASHVI // AI ENGINEER OS                         ║
 ║ GitHub-native application-style profile README                     ║
