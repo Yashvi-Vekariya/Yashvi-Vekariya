@@ -14,10 +14,6 @@ MAINTENANCE:
 -->
 
 <p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Yashvi Vekariya — AI Systems Engineer"/>
-</p>
-
-<p align="center">
   <a href="https://www.yashviivekariya.site/"><b>Portfolio</b></a>
   &nbsp;·&nbsp;
   <a href="http://yashvi-ai-engineer-mvdc7u9.gamma.site/"><b>Portfolio II</b></a>
