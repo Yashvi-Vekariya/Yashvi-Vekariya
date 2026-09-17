@@ -1,7 +1,68 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0F14"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="120" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6EE7B7" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#A7F3D0"/>
+      <stop offset="1" stop-color="#6EE7B7" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="418" rx="27" stroke="#243244"/>
+
+  <!-- top bar -->
+  <circle cx="44" cy="38" r="6" fill="#374151"/>
+  <circle cx="64" cy="38" r="6" fill="#374151"/>
+  <circle cx="84" cy="38" r="6" fill="#374151"/>
+  <text x="600" y="43" fill="#6B7280" font-family="Inter,Segoe UI,Arial" font-size="14" text-anchor="middle">github://yashvi-vekariya/ai-systems</text>
+
+  <!-- left system label -->
+  <text x="82" y="114" fill="#6EE7B7" font-family="Inter,Segoe UI,Arial" font-size="14" letter-spacing="3">AI ENGINEERING SYSTEM</text>
+
+  <text x="82" y="175" fill="#F9FAFB" font-family="Inter,Segoe UI,Arial" font-size="44" font-weight="700">YASHVI VEKARIYA</text>
+  <text x="82" y="215" fill="#9CA3AF" font-family="Inter,Segoe UI,Arial" font-size="22">AI Systems Engineer</text>
+
+  <!-- architecture line -->
+  <line x1="82" y1="278" x2="1118" y2="278" stroke="url(#line)" stroke-width="2"/>
+  <g font-family="Inter,Segoe UI,Arial" font-size="15" fill="#D1D5DB">
+    <text x="82" y="315">DATA</text>
+    <text x="278" y="315">MODELS</text>
+    <text x="474" y="315">CONTEXT</text>
+    <text x="682" y="315">AGENTS</text>
+    <text x="870" y="315">SYSTEMS</text>
+  </g>
+  <g fill="#6EE7B7" filter="url(#glow)">
+    <circle cx="110" cy="278" r="5"/>
+    <circle cx="310" cy="278" r="5"/>
+    <circle cx="510" cy="278" r="5"/>
+    <circle cx="715" cy="278" r="5"/>
+    <circle cx="908" cy="278" r="5"/>
+    <circle cx="1110" cy="278" r="5"/>
+  </g>
+
+  <!-- status chips -->
+  <rect x="82" y="346" width="156" height="34" rx="17" fill="#0F172A" stroke="#263449"/>
+  <text x="160" y="368" fill="#A7F3D0" font-family="Inter,Segoe UI,Arial" font-size="12" text-anchor="middle">STATUS · BUILDING</text>
+
+  <rect x="252" y="346" width="248" height="34" rx="17" fill="#0F172A" stroke="#263449"/>
+  <text x="376" y="368" fill="#D1D5DB" font-family="Inter,Segoe UI,Arial" font-size="12" text-anchor="middle">FOCUS · AGENTIC AI / LLM SYSTEMS</text>
+
+  <rect x="514" y="346" width="280" height="34" rx="17" fill="#0F172A" stroke="#263449"/>
+  <text x="654" y="368" fill="#D1D5DB" font-family="Inter,Segoe UI,Arial" font-size="12" text-anchor="middle">MODE · ARCHITECT → EVALUATE → SHIP</text>
+</svg>
+<img width="1200" height="420" alt="profile-header" src="https://github.com/user-attachments/assets/6820455a-df4f-40ff-a263-7918ad51c532" />
 <!--
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                    YASHVI // AI ENGINEER OS                         ║
-║ GitHub-native AI Engineer OS / modular application-style profile                     ║
+║ GitHub-native application-style profile README                     ║
 ║ Priority: Evidence > Architecture > Clarity > Story > Visuals       ║
 ╚══════════════════════════════════════════════════════════════════════╝
 
@@ -12,7 +73,7 @@ MAINTENANCE:
 -->
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/87884eff-25d9-4aa1-8d64-f2a03b374e44" width="100%" alt="Yashvi Vekariya — AI Systems Engineer"/>
+  <img src="./assets/profile-header.svg" width="100%" alt="Yashvi Vekariya — AI Systems Engineer"/>
 </p>
 
 <p align="center">
@@ -42,7 +103,8 @@ DATA
   ↓
 MODELS
   ↓
-CONTEXT
+CONTEXT![Uploading profile-header.svg…]()
+
   ↓
 TOOLS
   ↓
@@ -76,8 +138,6 @@ SYSTEMS
 
 ## `NAVIGATION // MODULES`
 
-> **APP ROUTER** — Open any module below like a dedicated engineering page. The profile stays compact by default; technical depth opens only when someone wants it.
-
 <table>
 <tr>
 <td align="center"><a href="#01--system-boot"><b>01<br/>BOOT</b></a></td>
@@ -94,23 +154,6 @@ SYSTEMS
 
 ---
 
-
-
----
-
-<table>
-<tr>
-<td width="25%" align="center"><b>CONTROL PLANE</b><br/><sub>Architecture-first</sub></td>
-<td width="25%" align="center"><b>EVIDENCE MODE</b><br/><sub>No fabricated metrics</sub></td>
-<td width="25%" align="center"><b>SYSTEM DEPTH</b><br/><sub>RAG · Agents · APIs</sub></td>
-<td width="25%" align="center"><b>OPERATING LOOP</b><br/><sub>Build · Evaluate · Refine</sub></td>
-</tr>
-</table>
-
-<details>
-<summary><strong>01 // SYSTEM BOOT</strong></summary>
-
-<br/>
 # `01 // SYSTEM BOOT`
 
 > **What happens when data stops being something we only analyze—and starts becoming something software can reason over, retrieve from, act on, and coordinate around?**
@@ -155,14 +198,6 @@ deployment thinking
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>02 // SIGNAL LAYER</strong></summary>
-
-<br/>
 # `02 // SIGNAL LAYER`
 
 <table>
@@ -209,14 +244,6 @@ A data / ML foundation underneath later AI-system work.
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>03 // MODEL LAYER</strong></summary>
-
-<br/>
 # `03 // MODEL LAYER`
 
 > **Analyzing data was useful. Predicting from it was better.**
@@ -261,14 +288,6 @@ Features, model choice, thresholds, workflow design.
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>04 // CONTEXT LAYER</strong></summary>
-
-<br/>
 # `04 // CONTEXT LAYER`
 
 > **Models know patterns. Useful systems also need context.**
@@ -320,14 +339,6 @@ Document-intelligence / RAG direction centered on converting unstructured inform
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>05 // TOOL LAYER</strong></summary>
-
-<br/>
 # `05 // TOOL LAYER`
 
 > **Context made models informed. Tools made them capable.**
@@ -381,14 +392,6 @@ Research orchestration with external information access and structured synthesis
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>06 // AGENT LAYER</strong></summary>
-
-<br/>
 # `06 // AGENT LAYER`
 
 <div align="center">
@@ -468,26 +471,10 @@ Memory-aware enterprise AI direction combining intelligent workflows with extern
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>07 // SYSTEMS LAYER</strong></summary>
-
-<br/>
 # `07 // SYSTEMS LAYER`
 
 <div align="center">
 
-
-</details>
-
-
-<details>
-<summary><strong>SYSTEMS > DEMOS</strong></summary>
-
-<br/>
 # `SYSTEMS > DEMOS`
 
 **A demo proves an idea can work. Engineering asks whether it can keep working.**
@@ -547,14 +534,6 @@ Human Oversight
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>08 // CONSTELLATION</strong></summary>
-
-<br/>
 # `08 // CONSTELLATION`
 
 <div align="center">
@@ -702,14 +681,6 @@ AI-powered burnout detection and intervention workflow.
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>THE SYSTEM I WOULD SHOW FIRST // ARBITER</strong></summary>
-
-<br/>
 # `THE SYSTEM I WOULD SHOW FIRST // ARBITER`
 
 <table>
@@ -777,14 +748,6 @@ flowchart TD
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>09 // ENGINEERING DNA</strong></summary>
-
-<br/>
 # `09 // ENGINEERING DNA`
 
 <div align="center">
@@ -815,14 +778,6 @@ The system problems stay:
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>10 // BUILD LOOP</strong></summary>
-
-<br/>
 # `10 // BUILD LOOP`
 
 ```mermaid
@@ -845,14 +800,6 @@ flowchart LR
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>11 // LIVE FOCUS</strong></summary>
-
-<br/>
 # `11 // LIVE FOCUS`
 
 <table>
@@ -894,14 +841,6 @@ Make multi-step behavior easier to inspect and improve.
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>12 // NEXT SYSTEMS</strong></summary>
-
-<br/>
 # `12 // NEXT SYSTEMS`
 
 > These are **exploration directions**, not claims of completed expertise.
@@ -953,14 +892,6 @@ Architecture-first AI systems combining:
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>13 // EVIDENCE MODE</strong></summary>
-
-<br/>
 # `13 // EVIDENCE MODE`
 
 ```text
@@ -996,14 +927,6 @@ Where measurement has not yet been completed, I prefer to expose the **evaluatio
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>14 // REUSABLE COMPONENT</strong></summary>
-
-<br/>
 # `14 // REUSABLE COMPONENT`
 
 <!--
@@ -1047,14 +970,6 @@ One sentence about the non-trivial technical challenge.
 
 ---
 
-
-</details>
-
-
-<details>
-<summary><strong>15 // FINAL NODE</strong></summary>
-
-<br/>
 # `15 // FINAL NODE`
 
 ```text
@@ -1102,5 +1017,3 @@ I am more interested in the engineering required to make intelligent behavior:
 **BUILDING THE LAYERS THAT TURN MODELS INTO SYSTEMS.**
 
 </p>
-
-</details>
