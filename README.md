@@ -1,9 +1,7 @@
-<img width="1200" height="420" alt="profile-header" src="https://github.com/user-attachments/assets/87884eff-25d9-4aa1-8d64-f2a03b374e44" />
-
 <!--
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                    YASHVI // AI ENGINEER OS                         ║
-║ GitHub-native application-style profile README                     ║
+║ GitHub-native AI Engineer OS / modular application-style profile                     ║
 ║ Priority: Evidence > Architecture > Clarity > Story > Visuals       ║
 ╚══════════════════════════════════════════════════════════════════════╝
 
@@ -12,6 +10,10 @@ MAINTENANCE:
 - Do not add fake metrics, fake production claims, or unsupported architecture.
 - Replace repo search links with direct repository URLs when final slugs are fixed.
 -->
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/87884eff-25d9-4aa1-8d64-f2a03b374e44" width="100%" alt="Yashvi Vekariya — AI Systems Engineer"/>
+</p>
 
 <p align="center">
   <a href="https://www.yashviivekariya.site/"><b>Portfolio</b></a>
@@ -74,6 +76,8 @@ SYSTEMS
 
 ## `NAVIGATION // MODULES`
 
+> **APP ROUTER** — Open any module below like a dedicated engineering page. The profile stays compact by default; technical depth opens only when someone wants it.
+
 <table>
 <tr>
 <td align="center"><a href="#01--system-boot"><b>01<br/>BOOT</b></a></td>
@@ -90,6 +94,23 @@ SYSTEMS
 
 ---
 
+
+
+---
+
+<table>
+<tr>
+<td width="25%" align="center"><b>CONTROL PLANE</b><br/><sub>Architecture-first</sub></td>
+<td width="25%" align="center"><b>EVIDENCE MODE</b><br/><sub>No fabricated metrics</sub></td>
+<td width="25%" align="center"><b>SYSTEM DEPTH</b><br/><sub>RAG · Agents · APIs</sub></td>
+<td width="25%" align="center"><b>OPERATING LOOP</b><br/><sub>Build · Evaluate · Refine</sub></td>
+</tr>
+</table>
+
+<details>
+<summary><strong>01 // SYSTEM BOOT</strong></summary>
+
+<br/>
 # `01 // SYSTEM BOOT`
 
 > **What happens when data stops being something we only analyze—and starts becoming something software can reason over, retrieve from, act on, and coordinate around?**
@@ -134,6 +155,14 @@ deployment thinking
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>02 // SIGNAL LAYER</strong></summary>
+
+<br/>
 # `02 // SIGNAL LAYER`
 
 <table>
@@ -180,6 +209,14 @@ A data / ML foundation underneath later AI-system work.
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>03 // MODEL LAYER</strong></summary>
+
+<br/>
 # `03 // MODEL LAYER`
 
 > **Analyzing data was useful. Predicting from it was better.**
@@ -224,6 +261,14 @@ Features, model choice, thresholds, workflow design.
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>04 // CONTEXT LAYER</strong></summary>
+
+<br/>
 # `04 // CONTEXT LAYER`
 
 > **Models know patterns. Useful systems also need context.**
@@ -275,6 +320,14 @@ Document-intelligence / RAG direction centered on converting unstructured inform
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>05 // TOOL LAYER</strong></summary>
+
+<br/>
 # `05 // TOOL LAYER`
 
 > **Context made models informed. Tools made them capable.**
@@ -328,6 +381,14 @@ Research orchestration with external information access and structured synthesis
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>06 // AGENT LAYER</strong></summary>
+
+<br/>
 # `06 // AGENT LAYER`
 
 <div align="center">
@@ -407,10 +468,26 @@ Memory-aware enterprise AI direction combining intelligent workflows with extern
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>07 // SYSTEMS LAYER</strong></summary>
+
+<br/>
 # `07 // SYSTEMS LAYER`
 
 <div align="center">
 
+
+</details>
+
+
+<details>
+<summary><strong>SYSTEMS > DEMOS</strong></summary>
+
+<br/>
 # `SYSTEMS > DEMOS`
 
 **A demo proves an idea can work. Engineering asks whether it can keep working.**
@@ -470,6 +547,14 @@ Human Oversight
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>08 // CONSTELLATION</strong></summary>
+
+<br/>
 # `08 // CONSTELLATION`
 
 <div align="center">
@@ -617,6 +702,14 @@ AI-powered burnout detection and intervention workflow.
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>THE SYSTEM I WOULD SHOW FIRST // ARBITER</strong></summary>
+
+<br/>
 # `THE SYSTEM I WOULD SHOW FIRST // ARBITER`
 
 <table>
@@ -684,6 +777,14 @@ flowchart TD
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>09 // ENGINEERING DNA</strong></summary>
+
+<br/>
 # `09 // ENGINEERING DNA`
 
 <div align="center">
@@ -714,6 +815,14 @@ The system problems stay:
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>10 // BUILD LOOP</strong></summary>
+
+<br/>
 # `10 // BUILD LOOP`
 
 ```mermaid
@@ -736,6 +845,14 @@ flowchart LR
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>11 // LIVE FOCUS</strong></summary>
+
+<br/>
 # `11 // LIVE FOCUS`
 
 <table>
@@ -777,6 +894,14 @@ Make multi-step behavior easier to inspect and improve.
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>12 // NEXT SYSTEMS</strong></summary>
+
+<br/>
 # `12 // NEXT SYSTEMS`
 
 > These are **exploration directions**, not claims of completed expertise.
@@ -828,6 +953,14 @@ Architecture-first AI systems combining:
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>13 // EVIDENCE MODE</strong></summary>
+
+<br/>
 # `13 // EVIDENCE MODE`
 
 ```text
@@ -863,6 +996,14 @@ Where measurement has not yet been completed, I prefer to expose the **evaluatio
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>14 // REUSABLE COMPONENT</strong></summary>
+
+<br/>
 # `14 // REUSABLE COMPONENT`
 
 <!--
@@ -906,6 +1047,14 @@ One sentence about the non-trivial technical challenge.
 
 ---
 
+
+</details>
+
+
+<details>
+<summary><strong>15 // FINAL NODE</strong></summary>
+
+<br/>
 # `15 // FINAL NODE`
 
 ```text
@@ -953,3 +1102,5 @@ I am more interested in the engineering required to make intelligent behavior:
 **BUILDING THE LAYERS THAT TURN MODELS INTO SYSTEMS.**
 
 </p>
+
+</details>
